@@ -1,0 +1,20 @@
+[
+  {
+    "username": "student0",
+    "password": "chess123",
+    "role": "student",
+    "level": 0
+  },
+  {
+    "username": "student1",
+    "password": "chess123",
+    "role": "student",
+    "level": 1
+  },
+  {
+    "username": "teacher1",
+    "password": "teach123",
+    "role": "teacher",
+    "level": 99
+  }
+]

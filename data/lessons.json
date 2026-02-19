@@ -1,0 +1,43 @@
+[
+  {
+    "id": "opening-basics",
+    "title": "Opening Principles for Beginners",
+    "description": "Control center, develop pieces, and king safety.",
+    "level": 0,
+    "videoUrl": "https://www.youtube.com/embed/OCSbzArwB10",
+    "teacherOnlyNote": "Ask students to explain why each move in puzzle 1 follows opening principles.",
+    "puzzles": [
+      {
+        "id": "op-1",
+        "title": "Find white's best development move",
+        "fen": "rnbqkbnr/pppp1ppp/8/4p3/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+        "solution": ["d4e5"],
+        "hint": "Take central space while gaining a pawn."
+      },
+      {
+        "id": "op-2",
+        "title": "Complete development",
+        "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 2 3",
+        "solution": ["e5d4"],
+        "hint": "Fight for the center immediately."
+      }
+    ]
+  },
+  {
+    "id": "tactics-level1",
+    "title": "Level 1 Tactics: Forks",
+    "description": "Learn to identify and execute knight forks.",
+    "level": 1,
+    "videoUrl": "https://www.youtube.com/embed/8kdjSqNcViw",
+    "teacherOnlyNote": "Challenge students to find alternate tactical motifs after solving the main line.",
+    "puzzles": [
+      {
+        "id": "tk-1",
+        "title": "Knight fork on king and rook",
+        "fen": "r1bqk2r/pppp1ppp/2n5/4N3/2B1n3/8/PPP2PPP/R1BQ1RK1 w kq - 0 10",
+        "solution": ["c4f7"],
+        "hint": "Look for checks that attack another major piece."
+      }
+    ]
+  }
+]

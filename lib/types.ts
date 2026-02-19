@@ -1,9 +1,10 @@
 export type UserRole = 'student' | 'teacher';
+export type UserLevel = 0 | 1 | 2 | 3;
 
 export interface UserProfile {
   username: string;
   role: UserRole;
-  level: number;
+  level: UserLevel;
 }
 
 export interface AuthUser extends UserProfile {

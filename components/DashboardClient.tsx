@@ -39,15 +39,20 @@ export function DashboardClient() {
         <p>
           Role: <b>{user.role}</b> | {user.role === 'student' ? `Level: ${user.level}` : 'Full teacher access'}
         </p>
-        <button
-          className="btn btn-muted"
-          onClick={() => {
-            clearUser();
-            router.push('/login');
-          }}
-        >
-          Log out
-        </button>
+        <div style={{ display: 'flex', gap: '0.5rem' }}>
+          <Link className="btn btn-primary" href="/profile">
+            View profile
+          </Link>
+          <button
+            className="btn btn-muted"
+            onClick={() => {
+              clearUser();
+              router.push('/login');
+            }}
+          >
+            Log out
+          </button>
+        </div>
       </section>
 
       <section className="grid grid-2">

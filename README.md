@@ -8,6 +8,16 @@ Basic Next.js app for chess lessons with:
 - Puzzles powered by open-source `react-chessboard` and `chess.js`.
 - Lesson and user content sourced from local JSON (`data/lessons.json`, `data/users.json`).
 
+
+## Lesson path schema
+
+Lessons are defined in `data/lessons.json` and should be ordered as a learning path via:
+
+- `order`: numeric sequence (1, 2, 3, ...).
+- `previousLessonId`: previous lesson ID in the path (`null` for first).
+- `nextLessonId`: next lesson ID in the path (`null` for last).
+- `tags`: JSON string array (e.g. `["tactics", "fork"]`) for filtering/search.
+
 ## Demo accounts
 
 - `student0 / chess123` (level 0)

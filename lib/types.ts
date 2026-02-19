@@ -24,6 +24,10 @@ export interface Lesson {
   title: string;
   description: string;
   level: number;
+  order: number;
+  previousLessonId: string | null;
+  nextLessonId: string | null;
+  tags: string[];
   videoUrl: string;
   teacherOnlyNote?: string;
   puzzles: Puzzle[];

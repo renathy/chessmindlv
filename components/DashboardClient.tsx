@@ -25,7 +25,9 @@ export function DashboardClient() {
       return [];
     }
 
-    return (lessons as Lesson[]).filter((lesson) => user.role === 'teacher' || lesson.level <= user.level);
+    return (lessons as Lesson[])
+      .filter((lesson) => user.role === 'teacher' || lesson.level <= user.level)
+      .sort((a, b) => a.order - b.order);
   }, [user]);
 
   if (!user) {

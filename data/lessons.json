@@ -4,6 +4,10 @@
     "title": "Opening Principles for Beginners",
     "description": "Control center, develop pieces, and king safety.",
     "level": 0,
+    "order": 1,
+    "previousLessonId": null,
+    "nextLessonId": "tactics-level1",
+    "tags": ["opening", "beginner", "principles", "center-control"],
     "videoUrl": "https://www.youtube.com/embed/OCSbzArwB10",
     "teacherOnlyNote": "Ask students to explain why each move in puzzle 1 follows opening principles.",
     "puzzles": [
@@ -28,6 +32,10 @@
     "title": "Level 1 Tactics: Forks",
     "description": "Learn to identify and execute knight forks.",
     "level": 1,
+    "order": 2,
+    "previousLessonId": "opening-basics",
+    "nextLessonId": null,
+    "tags": ["tactics", "fork", "knight", "intermediate"],
     "videoUrl": "https://www.youtube.com/embed/8kdjSqNcViw",
     "teacherOnlyNote": "Challenge students to find alternate tactical motifs after solving the main line.",
     "puzzles": [
